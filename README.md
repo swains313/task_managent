@@ -19,9 +19,7 @@ npm install
 Copy the example.env file to .env:
 
 cp example.env .env
-Update the .env file with your MongoDB URL. If you're using MongoDB Atlas, your MongoDB URL will look like this:
-
-
+you don't need to manually update the MongoDB URL. The connection string in example.env will be used directly for testing and development. Just ensure the URL in .env is correct, and the application will connect to the provided MongoDB instance.
 
 When you first start the server, a default admin will be created with the following credentials:
 Email: admin@gmail.com
